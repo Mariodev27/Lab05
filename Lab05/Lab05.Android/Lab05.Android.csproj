@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\drawable\pezMario.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lab05\Lab05.csproj">
       <Project>{0851577C-E704-4034-BF82-E9F0331A8D54}</Project>
@@ -91,7 +93,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\prueba.png" />
+    <EmbeddedResource Include="Resources\drawable\prueba.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
